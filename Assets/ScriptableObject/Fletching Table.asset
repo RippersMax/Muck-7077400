@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59f597404e4d88468047f2baf20edf5, type: 3}
+  m_Name: Fletching Table
+  m_EditorClassIdentifier:
+  important: 0
+  id: 98
+  name: Fletching Table
+  description: fletch
+  type: 7
+  tier: 0
+  sprite: {fileID: 21300000, guid: 2aaffe5371659a0498c14c6763423695, type: 3}
+  material: {fileID: 2100000, guid: 8c78c96e5f95435448cdb37044df091e, type: 2}
+  mesh: {fileID: 4300000, guid: a37ae833d97fe8d409674a88f8626d71, type: 2}
+  rotationOffset: {x: 0, y: 0, z: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  scale: 1
+  stackable: 1
+  amount: 5
+  max: 69
+  resourceDamage: 1
+  attackDamage: 1
+  attackSpeed: 1
+  attackRange: 0
+  sharpness: 0
+  craftable: 1
+  unlockWithFirstRequirementOnly: 0
+  requirements:
+  - item: {fileID: 11400000, guid: 88608c8e633f7d0459f340e368c906ea, type: 2}
+    amount: 25
+  - item: {fileID: 11400000, guid: be4330802c4d4ec408f238e1459b0456, type: 2}
+    amount: 10
+  craftAmount: 1
+  stationRequirement: {fileID: 0}
+  buildable: 1
+  grid: 0
+  prefab: {fileID: 1067106748590276, guid: 8b0b7952101944d4cb3e27a757af544c, type: 2}
+  buildRotation: {x: 0, y: 0, z: 0}
+  processable: 0
+  processType: 0
+  processedItem: {fileID: 0}
+  processTime: 0
+  heal: 0
+  hunger: 0
+  stamina: 0
+  armor: 0
+  swingFx: 0
+  bowComponent: {fileID: 0}
+  armorComponent: {fileID: 0}
+  fuel: {fileID: 0}
+  tag: 0
+  rarity: 0
+  attackTypes:

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59f597404e4d88468047f2baf20edf5, type: 3}
+  m_Name: Arrow_Fire
+  m_EditorClassIdentifier:
+  important: 0
+  id: 132
+  name: Fire arrow
+  description: An arrow charged with fire
+  type: 0
+  tier: 0
+  sprite: {fileID: 21300000, guid: 2018a11ea618d8842aaf25630d45ffe6, type: 3}
+  material: {fileID: 2100000, guid: fbc275b81169554478138b4cc8414bc1, type: 2}
+  mesh: {fileID: 4300000, guid: fb4a8b05380f0394ebbc1326f8bdd668, type: 2}
+  rotationOffset: {x: 0, y: 0, z: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  scale: 1
+  stackable: 1
+  amount: 64
+  max: 999
+  resourceDamage: 1
+  attackDamage: 100
+  attackSpeed: 0.3
+  attackRange: 0
+  sharpness: 0.8
+  craftable: 1
+  unlockWithFirstRequirementOnly: 1
+  requirements:
+  - item: {fileID: 11400000, guid: 34519f5efdf3cc24c883bdc74bf526d6, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 1f1ff3468492a5c449bad90eb90f6888, type: 2}
+    amount: 1
+  craftAmount: 4
+  stationRequirement: {fileID: 11400000, guid: 8074ae8af13bbb54c9f32c686933667e, type: 2}
+  buildable: 0
+  grid: 0
+  prefab: {fileID: 1515849898925759, guid: 3d5e3a2615bc85c44a9c090c1bf4342e, type: 2}
+  buildRotation: {x: 0, y: 0, z: 0}
+  processable: 0
+  processType: 0
+  processedItem: {fileID: 0}
+  processTime: 0
+  heal: 0
+  hunger: 0
+  stamina: 0
+  armor: 0
+  swingFx: 0
+  bowComponent: {fileID: 0}
+  armorComponent: {fileID: 0}
+  fuel: {fileID: 0}
+  tag: 8
+  rarity: 2
+  attackTypes: 03000000

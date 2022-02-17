@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59f597404e4d88468047f2baf20edf5, type: 3}
+  m_Name: Bow_Basic
+  m_EditorClassIdentifier:
+  important: 0
+  id: 114
+  name: Wood Bow
+  description: Looks kinda scuffed
+  type: 9
+  tier: 1
+  sprite: {fileID: 21300000, guid: 91227f644db46604b840e5581b3c1f34, type: 3}
+  material: {fileID: 2100000, guid: f1ad708a911c7824d8e329223591bab6, type: 2}
+  mesh: {fileID: 4300000, guid: a83e9a3ba550cad4b9066ac6b8095592, type: 2}
+  rotationOffset: {x: 0, y: 0, z: 180}
+  positionOffset: {x: 0, y: 0.1, z: 0.12}
+  scale: 0.9
+  stackable: 0
+  amount: 1
+  max: 1
+  resourceDamage: 1
+  attackDamage: 1
+  attackSpeed: 0.85
+  attackRange: 0
+  sharpness: 1
+  craftable: 1
+  unlockWithFirstRequirementOnly: 0
+  requirements:
+  - item: {fileID: 11400000, guid: ffba3a25f9f8569408bfe93003d57a89, type: 2}
+    amount: 10
+  - item: {fileID: 11400000, guid: 6137cbe4b748de844a5973ec8147af8a, type: 2}
+    amount: 1
+  craftAmount: 1
+  stationRequirement: {fileID: 11400000, guid: c257d032cc1e21f48be64785b2856717, type: 2}
+  buildable: 0
+  grid: 0
+  prefab: {fileID: 1515849898925759, guid: 3d5e3a2615bc85c44a9c090c1bf4342e, type: 2}
+  buildRotation: {x: 0, y: 0, z: 0}
+  processable: 0
+  processType: 0
+  processedItem: {fileID: 0}
+  processTime: 0
+  heal: 0
+  hunger: 0
+  stamina: 0
+  armor: 0
+  swingFx: 0
+  bowComponent: {fileID: 11400000, guid: 8080f80113065fc4e824a3856317f313, type: 2}
+  armorComponent: {fileID: 0}
+  fuel: {fileID: 0}
+  tag: 0
+  rarity: 0
+  attackTypes:

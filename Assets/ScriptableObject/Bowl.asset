@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59f597404e4d88468047f2baf20edf5, type: 3}
+  m_Name: Bowl
+  m_EditorClassIdentifier:
+  important: 0
+  id: 46
+  name: Bowl
+  description: its bowl
+  type: 8
+  tier: 0
+  sprite: {fileID: 21300000, guid: 68fae62b49672e844a2f0101c2a36f64, type: 3}
+  material: {fileID: 2100000, guid: 36d530d24d0de06409d74d89fc9ab025, type: 2}
+  mesh: {fileID: 4300000, guid: 030f5d257b0acee448a420b2d4ce2e87, type: 2}
+  rotationOffset: {x: 0, y: -30, z: -10}
+  positionOffset: {x: 0, y: 0.1, z: 0}
+  scale: 0.6
+  stackable: 1
+  amount: 64
+  max: 69
+  resourceDamage: 1
+  attackDamage: 1
+  attackSpeed: 1
+  attackRange: 0
+  sharpness: 0
+  craftable: 0
+  unlockWithFirstRequirementOnly: 0
+  requirements:
+  - item: {fileID: 11400000, guid: ffba3a25f9f8569408bfe93003d57a89, type: 2}
+    amount: 1
+  craftAmount: 1
+  stationRequirement: {fileID: 11400000, guid: c257d032cc1e21f48be64785b2856717, type: 2}
+  buildable: 0
+  grid: 0
+  prefab: {fileID: 0}
+  buildRotation: {x: 0, y: 0, z: 0}
+  processable: 0
+  processType: 1
+  processedItem: {fileID: 11400000, guid: 81dbcce9b01f2f14dae9859653c21733, type: 2}
+  processTime: 1
+  heal: 0
+  hunger: 0
+  stamina: 0
+  armor: 0
+  swingFx: 0
+  bowComponent: {fileID: 0}
+  armorComponent: {fileID: 0}
+  fuel: {fileID: 0}
+  tag: 0
+  rarity: 0
+  attackTypes:

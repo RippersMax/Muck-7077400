@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59f597404e4d88468047f2baf20edf5, type: 3}
+  m_Name: PlanksStairs
+  m_EditorClassIdentifier:
+  important: 0
+  id: 15
+  name: Wood stairs
+  description: its wood
+  type: 0
+  tier: 0
+  sprite: {fileID: 21300000, guid: 7f63279201b653b49b4a35fb1f47d578, type: 3}
+  material: {fileID: 2100000, guid: ddda62d5d38736a4a81b20e0e6d1921e, type: 2}
+  mesh: {fileID: 4300000, guid: 9dfc9d0829d9c914f9a117164f8590e7, type: 2}
+  rotationOffset: {x: 0, y: 0, z: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  scale: 1
+  stackable: 1
+  amount: 50
+  max: 69
+  resourceDamage: 1
+  attackDamage: 1
+  attackSpeed: 2
+  attackRange: 0
+  sharpness: 0
+  craftable: 1
+  unlockWithFirstRequirementOnly: 0
+  requirements:
+  - item: {fileID: 11400000, guid: ffba3a25f9f8569408bfe93003d57a89, type: 2}
+    amount: 2
+  craftAmount: 1
+  stationRequirement: {fileID: 11400000, guid: c257d032cc1e21f48be64785b2856717, type: 2}
+  buildable: 1
+  grid: 1
+  prefab: {fileID: 1826320533746899, guid: f89dcd0d9972862469e4f550ebf02a1c, type: 2}
+  buildRotation: {x: 0, y: 0, z: 0}
+  processable: 0
+  processType: 0
+  processedItem: {fileID: 0}
+  processTime: 0
+  heal: 0
+  hunger: 0
+  stamina: 0
+  armor: 0
+  swingFx: 0
+  bowComponent: {fileID: 0}
+  armorComponent: {fileID: 0}
+  fuel: {fileID: 0}
+  tag: 0
+  rarity: 0
+  attackTypes:

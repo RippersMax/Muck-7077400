@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59f597404e4d88468047f2baf20edf5, type: 3}
+  m_Name: TestTool
+  m_EditorClassIdentifier:
+  important: 0
+  id: 69
+  name: milk
+  description: testing item lol
+  type: 1
+  tier: 5
+  sprite: {fileID: 21300000, guid: 87ad86efb56406a49a66f0764601ee82, type: 3}
+  material: {fileID: 2100000, guid: 592bb4cfc3c73464e99c8fd3e2360e90, type: 2}
+  mesh: {fileID: 4300000, guid: 69ff0d074600114489e0542b7e6ade39, type: 2}
+  rotationOffset: {x: 0, y: 7, z: 75}
+  positionOffset: {x: 0, y: 0, z: 0}
+  scale: 1
+  stackable: 0
+  amount: 1
+  max: 1
+  resourceDamage: 500
+  attackDamage: 15
+  attackSpeed: 1.5
+  attackRange: 0
+  sharpness: 1
+  craftable: 1
+  unlockWithFirstRequirementOnly: 0
+  requirements:
+  - item: {fileID: 11400000, guid: d3dd49beaeca0154caee5bfb29d3c800, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: 3d3bfa62647e41048b31258f39c72c78, type: 2}
+    amount: 10
+  craftAmount: 1
+  stationRequirement: {fileID: 11400000, guid: 228c54596c8b7684b805ae08b59cad6c, type: 2}
+  buildable: 0
+  grid: 0
+  prefab: {fileID: 1705658809464449, guid: bd0bc6f822f3fc54db62bf994b5d2671, type: 2}
+  buildRotation: {x: 0, y: 0, z: 0}
+  processable: 0
+  processType: 0
+  processedItem: {fileID: 0}
+  processTime: 0
+  heal: 0
+  hunger: 0
+  stamina: 0
+  armor: 0
+  swingFx: 0
+  bowComponent: {fileID: 0}
+  armorComponent: {fileID: 0}
+  fuel: {fileID: 0}
+  tag: 0
+  rarity: 0
+  attackTypes:

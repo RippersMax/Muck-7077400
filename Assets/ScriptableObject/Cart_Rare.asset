@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aa6184d4fd8814589691e3362ae661, type: 3}
+  m_Name: Cart_Rare
+  m_EditorClassIdentifier:
+  loot:
+  - item: {fileID: 11400000, guid: 7f38284598cd0744ab92e472d6bba921, type: 2}
+    amountMin: 5
+    amountMax: 10
+    dropChance: 0.3
+  - item: {fileID: 11400000, guid: 690f0dbea85f43f428c48d85f0688107, type: 2}
+    amountMin: 4
+    amountMax: 8
+    dropChance: 0.4
+  - item: {fileID: 11400000, guid: d11199d87ef409143a8cb76eb2962e10, type: 2}
+    amountMin: 5
+    amountMax: 20
+    dropChance: 0.2
+  - item: {fileID: 11400000, guid: c7009edccaa2b8d4297e6c9e3eee1b93, type: 2}
+    amountMin: 1
+    amountMax: 1
+    dropChance: 0.2
+  - item: {fileID: 11400000, guid: 5c41fd51f93b9764ba3ec14a1a209857, type: 2}
+    amountMin: 10
+    amountMax: 50
+    dropChance: 0.1
+  - item: {fileID: 11400000, guid: d3dd49beaeca0154caee5bfb29d3c800, type: 2}
+    amountMin: 5
+    amountMax: 10
+    dropChance: 0.05
+  - item: {fileID: 11400000, guid: d919eaaadd8fc7b45bce5a3cce0fee47, type: 2}
+    amountMin: 5
+    amountMax: 10
+    dropChance: 0.01
+  - item: {fileID: 11400000, guid: 81dbcce9b01f2f14dae9859653c21733, type: 2}
+    amountMin: 5
+    amountMax: 10
+    dropChance: 0.001
+  - item: {fileID: 11400000, guid: 1b698d94ca96aca40a30555f67936005, type: 2}
+    amountMin: 1
+    amountMax: 1
+    dropChance: 0.01
+  - item: {fileID: 11400000, guid: 34519f5efdf3cc24c883bdc74bf526d6, type: 2}
+    amountMin: 5
+    amountMax: 10
+    dropChance: 0.001
+  dropOne: 0

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59f597404e4d88468047f2baf20edf5, type: 3}
+  m_Name: Wheat
+  m_EditorClassIdentifier:
+  important: 0
+  id: 55
+  name: Wheat
+  description: i could totally make dough with this
+  type: 0
+  tier: 0
+  sprite: {fileID: 21300000, guid: c47ab50b821fa3748a52c3f30dd66121, type: 3}
+  material: {fileID: 2100000, guid: 9a35e4b8ecfb34049b546422f3682288, type: 2}
+  mesh: {fileID: 4300000, guid: 27529a039c22d2d4a83d7ff39ffba322, type: 2}
+  rotationOffset: {x: 90, y: 0, z: 0}
+  positionOffset: {x: 0, y: -0.15, z: 0}
+  scale: 0.7
+  stackable: 1
+  amount: 64
+  max: 69
+  resourceDamage: 1
+  attackDamage: 1
+  attackSpeed: 1
+  attackRange: 0
+  sharpness: 0
+  craftable: 0
+  unlockWithFirstRequirementOnly: 0
+  requirements: []
+  craftAmount: 0
+  stationRequirement: {fileID: 0}
+  buildable: 0
+  grid: 0
+  prefab: {fileID: 1129521635248210, guid: 16d0c61cf30457c468ab2d4eeb04a620, type: 2}
+  buildRotation: {x: 0, y: 0, z: 0}
+  processable: 0
+  processType: 2
+  processedItem: {fileID: 11400000, guid: adf64aa732b1fc14f8ca2c2a8a1c9c6a, type: 2}
+  processTime: 1
+  heal: 2
+  hunger: 10
+  stamina: 2
+  armor: 0
+  swingFx: 0
+  bowComponent: {fileID: 0}
+  armorComponent: {fileID: 0}
+  fuel: {fileID: 0}
+  tag: 0
+  rarity: 0
+  attackTypes:

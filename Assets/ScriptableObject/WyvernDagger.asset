@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59f597404e4d88468047f2baf20edf5, type: 3}
+  m_Name: WyvernDagger
+  m_EditorClassIdentifier:
+  important: 0
+  id: 102
+  name: Wyvern Dagger
+  description: An extremely sharp dagger
+  type: 3
+  tier: 2
+  sprite: {fileID: 21300000, guid: 86e0ff3e5ee7b3144a1743a5e06304a5, type: 3}
+  material: {fileID: 2100000, guid: 28a3b9c0321e901418e5e9b724969800, type: 2}
+  mesh: {fileID: 4300000, guid: ecca2a464ec3d3946a763bdcaf6f76ea, type: 2}
+  rotationOffset: {x: 17, y: 100, z: 92}
+  positionOffset: {x: 0, y: 0, z: 0}
+  scale: 0.8
+  stackable: 0
+  amount: 1
+  max: 1
+  resourceDamage: 1
+  attackDamage: 60
+  attackSpeed: 1.75
+  attackRange: 0
+  sharpness: 1
+  craftable: 1
+  unlockWithFirstRequirementOnly: 1
+  requirements:
+  - item: {fileID: 11400000, guid: 88fc13eb97460af4c814c685a7f69f9c, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 2eb35dde4a986a34c9c0b5e8324c4f9b, type: 2}
+    amount: 10
+  craftAmount: 1
+  stationRequirement: {fileID: 11400000, guid: 228c54596c8b7684b805ae08b59cad6c, type: 2}
+  buildable: 0
+  grid: 0
+  prefab: {fileID: 1705658809464449, guid: bd0bc6f822f3fc54db62bf994b5d2671, type: 2}
+  buildRotation: {x: 0, y: 0, z: 0}
+  processable: 0
+  processType: 0
+  processedItem: {fileID: 0}
+  processTime: 0
+  heal: 0
+  hunger: 0
+  stamina: 0
+  armor: 0
+  swingFx: 1
+  bowComponent: {fileID: 0}
+  armorComponent: {fileID: 0}
+  fuel: {fileID: 0}
+  tag: 0
+  rarity: 2
+  attackTypes:

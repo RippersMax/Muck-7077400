@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5aa6184d4fd8814589691e3362ae661, type: 3}
+  m_Name: Hut_Cook
+  m_EditorClassIdentifier:
+  loot:
+  - item: {fileID: 11400000, guid: ffba3a25f9f8569408bfe93003d57a89, type: 2}
+    amountMin: 2
+    amountMax: 25
+    dropChance: 0.3
+  - item: {fileID: 11400000, guid: cf6947a718630bf48857b20bb75e95f8, type: 2}
+    amountMin: 2
+    amountMax: 5
+    dropChance: 0.5
+  - item: {fileID: 11400000, guid: 30eae4e920b0aee4c9284c8993eb388c, type: 2}
+    amountMin: 1
+    amountMax: 2
+    dropChance: 0.3
+  - item: {fileID: 11400000, guid: 08078493d4a4c274f9dbbec48bff3500, type: 2}
+    amountMin: 2
+    amountMax: 5
+    dropChance: 0.3
+  - item: {fileID: 11400000, guid: 42b3c6e4aa5ac7d4ebc65f8151ba3884, type: 2}
+    amountMin: 5
+    amountMax: 15
+    dropChance: 0.4
+  - item: {fileID: 11400000, guid: adb86261ede8f9741b507085c6112db7, type: 2}
+    amountMin: 2
+    amountMax: 4
+    dropChance: 0.2
+  - item: {fileID: 11400000, guid: f2e31f08077a03649901a09c8309b2e7, type: 2}
+    amountMin: 2
+    amountMax: 6
+    dropChance: 0.2
+  - item: {fileID: 11400000, guid: eca6c16795de7a84591ff9e313a0e4f4, type: 2}
+    amountMin: 1
+    amountMax: 2
+    dropChance: 0.1
+  - item: {fileID: 11400000, guid: 6165095534fa6594f8535520986c3ef5, type: 2}
+    amountMin: 2
+    amountMax: 4
+    dropChance: 0.05
+  - item: {fileID: 11400000, guid: 12a517a81f30ed8449a5ed8e2c021bbb, type: 2}
+    amountMin: 5
+    amountMax: 35
+    dropChance: 0.5
+  - item: {fileID: 11400000, guid: 1ace750a4ad162e4eb19f8c7f4378e39, type: 2}
+    amountMin: 2
+    amountMax: 4
+    dropChance: 0.05
+  dropOne: 0

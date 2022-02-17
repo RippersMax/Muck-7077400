@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b339a99da289f3d4a825e19417111be1, type: 3}
+  m_Name: PPVolume Profile
+  m_EditorClassIdentifier:
+  settings:
+  - {fileID: 11400000, guid: 8ca2e46a78655fe45ba94e17abd501bf, type: 2}
+  - {fileID: 11400000, guid: 547333155a82f184d8593f6cebd382d7, type: 2}
+  - {fileID: 11400000, guid: dd212a982c41382469722a1c7bc5d284, type: 2}
+  - {fileID: 11400000, guid: a590476610a4b13418071df3e7d5cf21, type: 2}
+  - {fileID: 11400000, guid: 798030c6738ba2847980e466b64af458, type: 2}
+  - {fileID: 11400000, guid: 10a8ce895065452469c7260a1286c642, type: 2}
+  - {fileID: 11400000, guid: 1c1d82cabb2fdc54fb4443db1a8a9633, type: 2}

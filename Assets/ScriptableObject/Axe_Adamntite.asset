@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59f597404e4d88468047f2baf20edf5, type: 3}
+  m_Name: Axe_Adamntite
+  m_EditorClassIdentifier:
+  important: 0
+  id: 108
+  name: Adamantite Axe
+  description: its axe
+  type: 1
+  tier: 4
+  sprite: {fileID: 21300000, guid: d26034cf623c28e469d5d606be553642, type: 3}
+  material: {fileID: 2100000, guid: 135e64be2f0a83c4fb612368a401b55d, type: 2}
+  mesh: {fileID: 4300000, guid: 8dae95afaebca82468549351faef6a13, type: 2}
+  rotationOffset: {x: 0, y: 0, z: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  scale: 1
+  stackable: 0
+  amount: 1
+  max: 1
+  resourceDamage: 50
+  attackDamage: 40
+  attackSpeed: 1
+  attackRange: 0
+  sharpness: 0.8
+  craftable: 1
+  unlockWithFirstRequirementOnly: 1
+  requirements:
+  - item: {fileID: 11400000, guid: 81dbcce9b01f2f14dae9859653c21733, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: 3d3bfa62647e41048b31258f39c72c78, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: 2eb35dde4a986a34c9c0b5e8324c4f9b, type: 2}
+    amount: 10
+  craftAmount: 1
+  stationRequirement: {fileID: 11400000, guid: c257d032cc1e21f48be64785b2856717, type: 2}
+  buildable: 0
+  grid: 0
+  prefab: {fileID: 0}
+  buildRotation: {x: 0, y: 0, z: 0}
+  processable: 0
+  processType: 0
+  processedItem: {fileID: 0}
+  processTime: 0
+  heal: 0
+  hunger: 0
+  stamina: 0
+  armor: 0
+  swingFx: 1
+  bowComponent: {fileID: 0}
+  armorComponent: {fileID: 0}
+  fuel: {fileID: 0}
+  tag: 0
+  rarity: 0
+  attackTypes:

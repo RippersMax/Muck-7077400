@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5490be54dd6b55c4aa1b70f6a78cafda, type: 3}
+  m_Name: Wildcard
+  m_EditorClassIdentifier:
+  trades:
+  - item: {fileID: 11400000, guid: d11199d87ef409143a8cb76eb2962e10, type: 2}
+    price: 5
+    amount: 5
+  - item: {fileID: 11400000, guid: 416d6a5298fbcbe468f0b5317e55ba54, type: 2}
+    price: 10
+    amount: 5
+  - item: {fileID: 11400000, guid: 726c17d8f3366b54da24e2ce47d7eda0, type: 2}
+    price: 15
+    amount: 5
+  - item: {fileID: 11400000, guid: e3284eebd11df2546a0997d8f198568a, type: 2}
+    price: 20
+    amount: 5
+  - item: {fileID: 11400000, guid: 596123f7e67663c4eb47319e78860870, type: 2}
+    price: 30
+    amount: 5
+  - item: {fileID: 11400000, guid: 16816f8a869995f4e9a98b6ac8273a6e, type: 2}
+    price: 30
+    amount: 5
+  - item: {fileID: 11400000, guid: 225ffeccf7f5d3c43943ae28aa13f8a5, type: 2}
+    price: 30
+    amount: 5
+  - item: {fileID: 11400000, guid: c7009edccaa2b8d4297e6c9e3eee1b93, type: 2}
+    price: 10
+    amount: 1
+  - item: {fileID: 11400000, guid: 333469b9beb7bce4ba63f31109a6911b, type: 2}
+    price: 20
+    amount: 1
+  - item: {fileID: 11400000, guid: 6f48861c228f7b2439be8eca0ab178ae, type: 2}
+    price: 30
+    amount: 1
+  - item: {fileID: 11400000, guid: 6f48861c228f7b2439be8eca0ab178ae, type: 2}
+    price: 40
+    amount: 1
+  - item: {fileID: 11400000, guid: 7ad4cf8009c78884f94cf61ec335fbdc, type: 2}
+    price: 50
+    amount: 1
+  - item: {fileID: 11400000, guid: 9d2a2d41412978742bf665555a06f11c, type: 2}
+    price: 5
+    amount: 5
+  - item: {fileID: 11400000, guid: 9c62f7163000d5b4da99779e9d54bdff, type: 2}
+    price: 10
+    amount: 5
+  - item: {fileID: 11400000, guid: 7f7e4d72a46b3f14f8eb8d208f8dc1d7, type: 2}
+    price: 250
+    amount: 1
+  - item: {fileID: 11400000, guid: be4330802c4d4ec408f238e1459b0456, type: 2}
+    price: 5
+    amount: 5
+  - item: {fileID: 11400000, guid: cf6947a718630bf48857b20bb75e95f8, type: 2}
+    price: 5
+    amount: 2
+  - item: {fileID: 11400000, guid: ffba3a25f9f8569408bfe93003d57a89, type: 2}
+    price: 2
+    amount: 5
+  - item: {fileID: 11400000, guid: 30eae4e920b0aee4c9284c8993eb388c, type: 2}
+    price: 2
+    amount: 5
+  - item: {fileID: 11400000, guid: 08078493d4a4c274f9dbbec48bff3500, type: 2}
+    price: 15
+    amount: 5
+  - item: {fileID: 11400000, guid: adb86261ede8f9741b507085c6112db7, type: 2}
+    price: 10
+    amount: 5
+  - item: {fileID: 11400000, guid: adf64aa732b1fc14f8ca2c2a8a1c9c6a, type: 2}
+    price: 15
+    amount: 5
+  - item: {fileID: 11400000, guid: eca6c16795de7a84591ff9e313a0e4f4, type: 2}
+    price: 25
+    amount: 5
+  - item: {fileID: 11400000, guid: 1ace750a4ad162e4eb19f8c7f4378e39, type: 2}
+    price: 25
+    amount: 5
+  - item: {fileID: 11400000, guid: 12a517a81f30ed8449a5ed8e2c021bbb, type: 2}
+    price: 8
+    amount: 5
+  - item: {fileID: 11400000, guid: e41ea4b763c3e1b49a58b60a4dbc965f, type: 2}
+    price: 10
+    amount: 5
+  - item: {fileID: 11400000, guid: 87a55079214808143b088c12d796b479, type: 2}
+    price: 10
+    amount: 5
+  - item: {fileID: 11400000, guid: 9eb980cb2daba7c4f952829dda117d83, type: 2}
+    price: 10
+    amount: 5
+  - item: {fileID: 11400000, guid: 4fc6237cbadaea448821d5918e2e38cb, type: 2}
+    price: 15
+    amount: 5
+  - item: {fileID: 11400000, guid: db0552a39b6f7524c998d0299bd66785, type: 2}
+    price: 2
+    amount: 5
+  - item: {fileID: 11400000, guid: 228c54596c8b7684b805ae08b59cad6c, type: 2}
+    price: 30
+    amount: 1
+  - item: {fileID: 11400000, guid: 7f38284598cd0744ab92e472d6bba921, type: 2}
+    price: 20
+    amount: 5
+  - item: {fileID: 11400000, guid: 56ad5787a977b5c4c90df434cb7835b2, type: 2}
+    price: 30
+    amount: 5
+  - item: {fileID: 11400000, guid: 1d8a9a1ce4473ac4f9736fc675bd007d, type: 2}
+    price: 50
+    amount: 5
+  - item: {fileID: 11400000, guid: 80231933d226d1c47a6d9ed1dd058e97, type: 2}
+    price: 75
+    amount: 5
+  - item: {fileID: 11400000, guid: 339802bc27d81d143890bc3d826fbe3b, type: 2}
+    price: 80
+    amount: 5
+  - item: {fileID: 11400000, guid: 678b2ed5abf9aa44e9c30e88125a5f2e, type: 2}
+    price: 10
+    amount: 1
+  - item: {fileID: 11400000, guid: 0d63c22d70248a947b3019bf3abcd08b, type: 2}
+    price: 25
+    amount: 1
+  - item: {fileID: 11400000, guid: 7574d1b90093f794d813728a5c7a497d, type: 2}
+    price: 40
+    amount: 1
+  - item: {fileID: 11400000, guid: 021744095a7e93e40a4ed903e1f4deab, type: 2}
+    price: 75
+    amount: 1
+  - item: {fileID: 11400000, guid: 07302fdc71085b74ba6b123f4b4a2b1d, type: 2}
+    price: 20
+    amount: 5
+  - item: {fileID: 11400000, guid: acdc2096a8818c9489bc54a8fa7e33c2, type: 2}
+    price: 50
+    amount: 5
+  - item: {fileID: 11400000, guid: 132a74e59dbc27e49bfbc1e5792b567d, type: 2}
+    price: 75
+    amount: 1
+  - item: {fileID: 11400000, guid: ffba3a25f9f8569408bfe93003d57a89, type: 2}
+    price: 2
+    amount: 5
+  - item: {fileID: 11400000, guid: 88608c8e633f7d0459f340e368c906ea, type: 2}
+    price: 5
+    amount: 5
+  - item: {fileID: 11400000, guid: a358e3de3e9f2164a9261c9b0ea327f1, type: 2}
+    price: 10
+    amount: 5
+  - item: {fileID: 11400000, guid: 2eb35dde4a986a34c9c0b5e8324c4f9b, type: 2}
+    price: 25
+    amount: 5
+  - item: {fileID: 11400000, guid: fe22d2acebfac424d9b4528779d7ea64, type: 2}
+    price: 10
+    amount: 1
+  - item: {fileID: 11400000, guid: b1f6712391a679749b00ee7ed2c2bcdd, type: 2}
+    price: 25
+    amount: 1
+  - item: {fileID: 11400000, guid: 6158b2bb32c06174d90f511defd41a94, type: 2}
+    price: 40
+    amount: 1
+  - item: {fileID: 11400000, guid: 2e2935086f72cbd4b8da04e917d6ef2a, type: 2}
+    price: 75
+    amount: 1
+  - item: {fileID: 11400000, guid: 42b3c6e4aa5ac7d4ebc65f8151ba3884, type: 2}
+    price: 5
+    amount: 5
+  - item: {fileID: 11400000, guid: 1f1ff3468492a5c449bad90eb90f6888, type: 2}
+    price: 50
+    amount: 5

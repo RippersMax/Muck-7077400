@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59f597404e4d88468047f2baf20edf5, type: 3}
+  m_Name: Meat_Raw
+  m_EditorClassIdentifier:
+  important: 0
+  id: 50
+  name: Raw Meat
+  description: yummy
+  type: 8
+  tier: 0
+  sprite: {fileID: 21300000, guid: b82a36c0894479d4d934c6a10e2d05e2, type: 3}
+  material: {fileID: 2100000, guid: d63e07926ba99134b9ec687d2087be19, type: 2}
+  mesh: {fileID: 4300000, guid: 7cdfe7be0991e4c4a85ed58a4a608815, type: 2}
+  rotationOffset: {x: 0, y: -76, z: -10}
+  positionOffset: {x: 0, y: 0, z: 0}
+  scale: 0.5
+  stackable: 1
+  amount: 64
+  max: 69
+  resourceDamage: 1
+  attackDamage: 1
+  attackSpeed: 1
+  attackRange: 0
+  sharpness: 0
+  craftable: 0
+  unlockWithFirstRequirementOnly: 0
+  requirements: []
+  craftAmount: 0
+  stationRequirement: {fileID: 0}
+  buildable: 0
+  grid: 0
+  prefab: {fileID: 0}
+  buildRotation: {x: 0, y: 0, z: 0}
+  processable: 1
+  processType: 2
+  processedItem: {fileID: 11400000, guid: adf64aa732b1fc14f8ca2c2a8a1c9c6a, type: 2}
+  processTime: 1
+  heal: 5
+  hunger: 10
+  stamina: 0
+  armor: 0
+  swingFx: 0
+  bowComponent: {fileID: 0}
+  armorComponent: {fileID: 0}
+  fuel: {fileID: 0}
+  tag: 2
+  rarity: 0
+  attackTypes:

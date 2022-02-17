@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5490be54dd6b55c4aa1b70f6a78cafda, type: 3}
+  m_Name: Smith
+  m_EditorClassIdentifier:
+  trades:
+  - item: {fileID: 11400000, guid: db0552a39b6f7524c998d0299bd66785, type: 2}
+    price: 2
+    amount: 5
+  - item: {fileID: 11400000, guid: 228c54596c8b7684b805ae08b59cad6c, type: 2}
+    price: 30
+    amount: 1
+  - item: {fileID: 11400000, guid: 7f38284598cd0744ab92e472d6bba921, type: 2}
+    price: 20
+    amount: 5
+  - item: {fileID: 11400000, guid: 56ad5787a977b5c4c90df434cb7835b2, type: 2}
+    price: 30
+    amount: 5
+  - item: {fileID: 11400000, guid: 1d8a9a1ce4473ac4f9736fc675bd007d, type: 2}
+    price: 50
+    amount: 5
+  - item: {fileID: 11400000, guid: 80231933d226d1c47a6d9ed1dd058e97, type: 2}
+    price: 75
+    amount: 5
+  - item: {fileID: 11400000, guid: 339802bc27d81d143890bc3d826fbe3b, type: 2}
+    price: 80
+    amount: 5
+  - item: {fileID: 11400000, guid: 678b2ed5abf9aa44e9c30e88125a5f2e, type: 2}
+    price: 10
+    amount: 1
+  - item: {fileID: 11400000, guid: 0d63c22d70248a947b3019bf3abcd08b, type: 2}
+    price: 25
+    amount: 1
+  - item: {fileID: 11400000, guid: 7574d1b90093f794d813728a5c7a497d, type: 2}
+    price: 40
+    amount: 1
+  - item: {fileID: 11400000, guid: 021744095a7e93e40a4ed903e1f4deab, type: 2}
+    price: 75
+    amount: 1
+  - item: {fileID: 11400000, guid: 07302fdc71085b74ba6b123f4b4a2b1d, type: 2}
+    price: 20
+    amount: 5
+  - item: {fileID: 11400000, guid: acdc2096a8818c9489bc54a8fa7e33c2, type: 2}
+    price: 50
+    amount: 5
+  - item: {fileID: 11400000, guid: 132a74e59dbc27e49bfbc1e5792b567d, type: 2}
+    price: 75
+    amount: 1

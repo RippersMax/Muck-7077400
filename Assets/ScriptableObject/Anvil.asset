@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59f597404e4d88468047f2baf20edf5, type: 3}
+  m_Name: Anvil
+  m_EditorClassIdentifier:
+  important: 0
+  id: 96
+  name: Anvil
+  description: chonky metal station
+  type: 7
+  tier: 0
+  sprite: {fileID: 21300000, guid: febf7e31ef3c76e4cba2ce3f840d8d3c, type: 3}
+  material: {fileID: 2100000, guid: 368e005914a47e04f91e7da41ba7d245, type: 2}
+  mesh: {fileID: 4300000, guid: 5529940a07326dd4dbe48d7df89982ef, type: 2}
+  rotationOffset: {x: 0, y: 0, z: 0}
+  positionOffset: {x: 0, y: 0, z: 0}
+  scale: 1
+  stackable: 1
+  amount: 1
+  max: 69
+  resourceDamage: 1
+  attackDamage: 10
+  attackSpeed: 1
+  attackRange: 0
+  sharpness: 0
+  craftable: 1
+  unlockWithFirstRequirementOnly: 0
+  requirements:
+  - item: {fileID: 11400000, guid: d3dd49beaeca0154caee5bfb29d3c800, type: 2}
+    amount: 5
+  - item: {fileID: 11400000, guid: db0552a39b6f7524c998d0299bd66785, type: 2}
+    amount: 15
+  craftAmount: 1
+  stationRequirement: {fileID: 0}
+  buildable: 1
+  grid: 0
+  prefab: {fileID: 1334183055653980, guid: c586c678a8b2a954dbf45945b5da25cd, type: 2}
+  buildRotation: {x: 0, y: 0, z: 0}
+  processable: 0
+  processType: 0
+  processedItem: {fileID: 0}
+  processTime: 0
+  heal: 0
+  hunger: 0
+  stamina: 0
+  armor: 0
+  swingFx: 0
+  bowComponent: {fileID: 0}
+  armorComponent: {fileID: 0}
+  fuel: {fileID: 0}
+  tag: 0
+  rarity: 0
+  attackTypes:

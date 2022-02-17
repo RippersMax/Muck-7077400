@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a59f597404e4d88468047f2baf20edf5, type: 3}
+  m_Name: Hat_Obamium
+  m_EditorClassIdentifier:
+  important: 0
+  id: 81
+  name: Obamium Helmet
+  description: it protecc head
+  type: 0
+  tier: 1
+  sprite: {fileID: 21300000, guid: c956d51275f5c4143a2a998878f563e2, type: 3}
+  material: {fileID: 2100000, guid: 90a6db14321e1994dac5179eadc1669e, type: 2}
+  mesh: {fileID: 4300000, guid: 31d02b60c2ba6d44b916332f11c90a72, type: 2}
+  rotationOffset: {x: 0, y: 7, z: 75}
+  positionOffset: {x: 0, y: 0, z: 0}
+  scale: 1
+  stackable: 0
+  amount: 1
+  max: 1
+  resourceDamage: 1
+  attackDamage: 1
+  attackSpeed: 1
+  attackRange: 0
+  sharpness: 1
+  craftable: 1
+  unlockWithFirstRequirementOnly: 0
+  requirements:
+  - item: {fileID: 11400000, guid: 6673c65f9aa8d58488aa25317ecfac62, type: 2}
+    amount: 5
+  craftAmount: 1
+  stationRequirement: {fileID: 11400000, guid: 228c54596c8b7684b805ae08b59cad6c, type: 2}
+  buildable: 0
+  grid: 0
+  prefab: {fileID: 1705658809464449, guid: bd0bc6f822f3fc54db62bf994b5d2671, type: 2}
+  buildRotation: {x: 0, y: 0, z: 0}
+  processable: 0
+  processType: 0
+  processedItem: {fileID: 0}
+  processTime: 0
+  heal: 0
+  hunger: 0
+  stamina: 0
+  armor: 9
+  swingFx: 0
+  bowComponent: {fileID: 0}
+  armorComponent: {fileID: 11400000, guid: d390a1209f0d3994cb4cfa10ec62acfb, type: 2}
+  fuel: {fileID: 0}
+  tag: 4
+  rarity: 0
+  attackTypes:

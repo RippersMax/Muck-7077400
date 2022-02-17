@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+PrefabInstance:
+  serializedVersion: 2
+  m_RootGameObject: {fileID: 1220328752155574}
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+--- !u!1 &1220328752155574
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4038684508468487}
+  - component: {fileID: 114985085376443944}
+  m_Layer: 0
+  m_Name: GenerateCamp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4038684508468487
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220328752155574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 26.22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114985085376443944
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 100100000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220328752155574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad6a88a3155557a44aee8401481f5f7b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  zonePrefab: {fileID: 1851306625795246, guid: e09f815609bd22240b703875ac85ac40, type: 2}
+  mobType: {fileID: 11400000, guid: eeb9cdee54ab4154baaf45182a01a66b, type: 2}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 512
+  chiefChest: {fileID: 1744272192422098, guid: 0b6bb3412ba60e34496c3ab4e89f7f99, type: 2}
+  hut: {fileID: 1173535583479489, guid: 0a697a30228565a4e97683f1207a3ccb, type: 2}
+  barrel: {fileID: 1908684269569406, guid: 46f6bf5d31cc5764e93f7736118b33ac, type: 2}
+  log: {fileID: 1866789389346907, guid: 967cd4af67bc88c4b941088ead771ec1, type: 2}
+  logPile: {fileID: 1563308210024871, guid: 25ebeff1bbaf6904880844dd909b9d9d, type: 2}
+  rockPile: {fileID: 1670174212023149, guid: 680267cb8104e3e4ca97ca6c8d187075, type: 2}
+  fireplace: {fileID: 1452364648418954, guid: 5a6b30138a07e0442862cda3ab4faffc, type: 2}
+  houseSpawner: {fileID: 0}
+  testing: 0
